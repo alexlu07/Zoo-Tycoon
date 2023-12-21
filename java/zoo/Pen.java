@@ -41,7 +41,7 @@ public class Pen {
 
 class BurgerPen {
 
-    private static int level = 0;;
+    private static int level = 0;
     private static int[] cost = {1, 2, 3, 1000000};
 
     public static int getLevel() {return level;}
