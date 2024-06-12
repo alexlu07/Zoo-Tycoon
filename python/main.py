@@ -15,7 +15,8 @@ ele_t = turtle.Turtle()
 ele_t.speed(0)
 
 def transform(x, y, abc=0):
-    return int((x-872)/3)+abc, -int((y-1200)/3)
+#    return int((x-872)/3)+abc, -int((y-1200)/3)
+    return int((x-872)/10)+abc, -int((y-1200)/10)
 
 screen.tracer(0)
 
